@@ -86,8 +86,9 @@ https://github.com/Quirrelz/ImageWeb
 
 
 | 原图 | 真实素描 | 黑白线稿 | 漫画渲染 | 卡通插画 |
-|---|---|---|---|---|
-| ![](assets/demo/original.png) | ![](assets/demo/sketch.jpg) | ![](assets/demo/lineart.png) | ![](assets/demo/comic.png) | ![](assets/demo/cartoon.png) |
+|:---:|:---:|:---:|:---:|:---:|
+| <img src="assets/demo/origin.png" height="180"/> | <img src="assets/demo/sketch.jpg" height="180"/> | <img src="assets/demo/lineart.png" height="180"/> | <img src="assets/demo/comic.png" height="180"/> | <img src="assets/demo/cartoon.png" height="180"/> |
+
 
 ---
 
