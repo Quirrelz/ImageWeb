@@ -58,8 +58,11 @@ def recommend_params(option, img):
         params["thr"] = noise_reduction
 
     elif option == "卡通插画":
-        edge_preserve = 50 if edge_density < 0.05 else 70
+        smooth = 5 if contrast < 50 else 10          # bilateralFilter 的 d（邻域直径）
+        edge_preserve = 50 if edge_density < 0.05 else 70  # bilateralFilter 的 sigmaColor/Space
+        params["smooth"] = smooth
         params["edge"] = edge_preserve
+
 
     return params
 
